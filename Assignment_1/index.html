@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Project</title>
+
+    <style>
+        /* Add space between <td> elements by setting padding */
+        td {
+            padding: 20px; /* Adjust the value as needed */
+        }
+
+        td input,
+        td select {
+            width: 300px;
+            height: 50px;
+            margin-bottom: 10px; /* Add some space between inputs and selects */
+        }
+
+        section {
+            margin-bottom: 20px; /* Add space between sections */
+        }
+
+        p {
+            margin-bottom: 10px; /* Add space between paragraphs */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#form">Altschool Form</a>
+            <a href="#Bio">Bio</a>
+        </nav>
+    </header>
+
+    <section id="form">
+        <table>
+            <tr>
+                <td>
+                    <section>
+                        <h2>Application Form</h2>
+                        <p>Fill in your details</p>
+                        <form>
+                            <p>
+                                <label>First Name</label><br>
+                                <input type="text" required>
+                            </p>
+
+                            <p>
+                                <label>Gender</label><br>
+                                <select>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>Email Address</label><br>
+                                <input type="text" placeholder="Enter email address">
+                            </p>
+
+                            <p>
+                                <label>Country</label><br>
+                                <select>
+                                    <option>Rwanda</option>
+                                    <option>Nigeria</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>Employment Status</label><br>
+                                <select>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option>Employed</option>
+                                    <option>Unemployed</option>
+                                    <option>Self-employed</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>Choose School</label><br>
+                                <select>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option>School of Engineering</option>
+                                    <option>School of Product</option>
+                                    <option>School of Design</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>How did you hear about us?</label><br>
+                                <select>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option>Twitter</option>
+                                    <option>Facebook</option>
+                                    <option>Instagram</option>
+                                </select>
+                            </p>
+                        </form>
+                    </section>
+                </td>
+
+                <td>
+                    <section>
+                        <form>
+                            <p>
+                                <label>Last Name</label><br>
+                                <input type="text" required>
+                            </p>
+
+                            <p>
+                                <label>Date of Birth</label><br>
+                                <input type="date" required>
+                            </p>
+
+                            <p>
+                                <label>Education Level</label><br>
+                                <select>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option>Bsc</option>
+                                    <option>Msc</option>
+                                    <option>Phd</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>State/City of Residence</label><br>
+                                <input type="text" required placeholder="Enter your state of residence">
+                            </p>
+
+                            <p>
+                                <label>Phone Number</label><br>
+                                <input type="text" required placeholder="08135462783">
+                            </p>
+
+                            <p>
+                                <label>Choose Course of Study</label><br>
+                                <select>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option>front-end</option>
+                                    <option>back-end</option>
+                                    <option>cloud</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <label>Scholarship/Discount Code (optional)</label><br>
+                                <input type="text" required placeholder="Scholarship or student ID or discount codes">
+                            </p>
+                        </form>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy.</p>
+    <button>Proceed</button>
+
+    <section id="Bio">
+        <main id="main">
+            <section>
+                <p><span>Name:</span> <span>Don-fortune Tangban</span></p>
+                <p><span>Bio:</span>
+                    <span>
+                        I am passionate about technology and the possibilities it offers.
+                        Outside of tech, I love reading books mostly about pan-Africanism and African literature generally.
+                    </span></p>
+
+                <p><span>Why did you join AltSchool:</span> <span>I joined AltSchool to further enhance my skills and join a community of like-minded individuals</span></p>
+                <p><span>My Goals for Altschool:</span> <span>
+                        <ul>
+                            <li>To become a world-class cloud engineer</li>
+                        </ul>
+                    </span></p>
+            </section>
+        </main>
+    </section>
+</body>
+
+</html>
